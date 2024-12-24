@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio from "../assets/pr.jpg";
+import portfolio from "../assets/Portfolio.png";
 import Ecommerce from "../assets/ecommerce.png";
 import food from "../assets/food.png";
 import todo from "../assets/todo.png";
