@@ -15,8 +15,8 @@ const Projects = () => {
       img: portfolio,
       name: "Portfolio",
       desc: "A responsive personal portfolio website designed to showcase projects, skills, and contact information. Featuring a clean, modern design with detailed project descriptions, skill summaries, and an easy-to-navigate layout, it provides a polished and professional presentation of individual achievements on any device.",
-      Github: "https://github.com/mohdha55an/e-Shop",
-      Demo: "https://e-shop55.vercel.app/",
+      Github: "https://github.com/mohdha55an/Portfolio",
+      Demo: "https://ha55an-portfolio.vercel.app/",
     },
     {
       id: 2,
