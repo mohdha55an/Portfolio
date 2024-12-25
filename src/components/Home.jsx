@@ -4,7 +4,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import About from "./About";
 import { Link } from "react-router";
-import resume from '../assets/resume.pdf'
+import resume from '../assets/Hassan-resume.pdf'
 
 const Home = () => {
   return (
