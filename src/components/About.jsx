@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/image.jpg";
+// import image from "../assets/image.jpg";
 import Projects from "./Projects";
 
 const About = () => {
@@ -9,11 +9,11 @@ const About = () => {
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-center text-3xl font-bold mb-12">About Me</h2>
         <div className="flex md:flex-row flex-col items-center md:space-x-12 ">
-          <img
+          {/* <img
             className=" w-64 h-80 rounded object-cover mb-6 md:mb-0"
             src={image}
             alt="profile"
-          />
+          /> */}
           <div className="flex-1">
             <p className="text-lg mb-8">
               I am a passionate Frontend developer with a focus on building
@@ -21,9 +21,9 @@ const About = () => {
               in frontend technologies, I strive to create seamless and
               efficient user experiences.
             </p>
-            <div className="space-y-4  w-80%">
+            <div className="space-y-4  w-100%">
               <div className="flex  items-center">
-                <label htmlFor="Html" className="w-2/12">
+                <label htmlFor="Html" className="w-2/12 font-semibold">
                   HTML
                 </label>
                 <div className="grow bg-gray-800 ml-6 rounded-full h-2.5">
@@ -35,7 +35,7 @@ const About = () => {
               </div>
 
               <div className="flex items-center">
-                <label htmlFor="Html" className="w-2/12">
+                <label htmlFor="Html" className="w-2/12 font-semibold">
                   CSS
                 </label>
                 <div className="grow bg-gray-800 ml-6 rounded-full h-2.5">
@@ -47,19 +47,19 @@ const About = () => {
               </div>
 
               <div className="flex items-center">
-                <label htmlFor="Html" className="w-2/12 text-nowrap ">
+                <label htmlFor="Html" className="w-2/12 text-nowrap font-semibold ">
                   Tailwind
                 </label>
                 <div className="grow bg-gray-800 ml-6 rounded-full h-2.5">
                   <div
                     className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full
-                        transform transition-transform duration-300 hover:scale-105 w-10/12 "
+                        transform transition-transform duration-300 hover:scale-105 w-11/12 "
                   ></div>
                 </div>
               </div>
 
               <div className="flex items-center">
-                <label htmlFor="Html" className="w-2/12">
+                <label htmlFor="Html" className="w-2/12 font-semibold">
                   JavaScript
                 </label>
                 <div className="grow bg-gray-800 ml-6 rounded-full w-8 h-2.5">
@@ -70,8 +70,19 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="Html" className="w-2/12">
+                <label htmlFor="Html" className="w-2/12 font-semibold">
                   React
+                </label>
+                <div className="grow bg-gray-800 ml-6 rounded-full h-2.5">
+                  <div
+                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full
+                        transform transition-transform duration-300 hover:scale-105 w-11/12 "
+                  ></div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <label htmlFor="Html" className="w-2/12 font-semibold">
+                  Redux
                 </label>
                 <div className="grow bg-gray-800 ml-6 rounded-full h-2.5">
                   <div
@@ -80,15 +91,16 @@ const About = () => {
                   ></div>
                 </div>
               </div>
+             
             </div>
           </div>
         </div>
       </div>
-      <div className="w-[370px]">
-        <h1 className="text-start uppercase font-bold  my-2">
+      <div className="w-[370px] mx-auto  ">
+        <h1 className="text-center uppercase font-bold  my-2">
           Technical Skills
         </h1>
-        <div className="grid grid-cols-3 gap-4 ml-2 ">
+        <div className="grid items-center grid-cols-3 gap-4 my-4 ">
           <div className="text-white text-center text-lg font-semibold rounded-md bg-gradient-to-r from-red-500 to-orange-400 hover:scale-95 cursor-pointer ">
             HTML
           </div>
@@ -120,9 +132,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="w-[370px]">
-        <h1 className="text-start uppercase font-bold my-2">Soft Skills</h1>
-        <div className="grid grid-cols-2 gap-4 ml-2 ">
+
+
+      <div className="w-[370px] mt-2 mx-auto">
+        <h1 className="text-center uppercase font-bold my-2">Soft Skills</h1>
+        <div className="grid grid-cols-2 gap-4 my-4 ">
           <div className="text-white text-center text-lg font-semibold rounded-md bg-gradient-to-r from-indigo-500 to-purple-400 hover:scale-95 cursor-pointer">
             Communication
           </div>
